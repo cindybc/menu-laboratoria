@@ -8,12 +8,13 @@ nav{
 }
 
 ul{
-   background-color: pink;	
+   background-color: #9C2780;	
    display: flex;
    width: 100%;
    margin: 0;
    padding: 0;
 }
+
 
 ul li{
    width: 100%;
@@ -22,9 +23,15 @@ ul li{
    list-style: none;
 }
 
+ul li:hover{
+	background-color: pink;
+}
+
+
 ul li a{
 	color: #fff;
 	padding: 25px;
 	text-decoration: none;
-
+	cursor: pointer;
 }
+
