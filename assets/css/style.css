@@ -1,0 +1,30 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+nav{
+	display: flex;
+}
+
+ul{
+   background-color: pink;	
+   display: flex;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+}
+
+ul li{
+   width: 100%;
+   border-right: 1px solid black;
+   padding: 15px;
+   list-style: none;
+}
+
+ul li a{
+	color: #fff;
+	padding: 25px;
+	text-decoration: none;
+
+}
