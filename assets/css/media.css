@@ -1,0 +1,27 @@
+
+@media (max-width: 534px){
+	#menu{
+		display: block;
+	}
+	#menuDes{
+		display: block;
+		width: 100%;
+		font-size: 30px;
+		padding-left: 10px;
+        text-decoration: none;
+	}
+    #menuDes, ul{
+    	background-color: black;
+    	color: #fff;
+    	font-family: 'Indie Flower', cursive;
+    }
+    #menuDes:hover, ul li:hover{
+    	background-color: #68D611;
+    }
+    #listita{
+    	display: none;
+    }
+    #listita.cambio{
+    	display: block;
+    }
+}

@@ -35,3 +35,6 @@ ul li a{
 	cursor: pointer;
 }
 
+#menuDes{
+	display: none;
+}
